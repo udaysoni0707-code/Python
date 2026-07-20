@@ -44,8 +44,7 @@ class assignment:
     @sideD.setter
     def sideD(self,value):
         self.__sideD = value
-        
-    
+            
     def perimeter(self):
         return (self.__sideA+self.__sideB+self.__sideC+self.__sideD)
         
