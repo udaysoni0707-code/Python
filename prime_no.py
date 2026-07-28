@@ -1,7 +1,0 @@
-n = int(input("Enter a number : "))
-for i in range (2,n):
-     if (i%n) == 0:
-         print("The number is not prime ...")
-         break
-else:
-    print("The number is prime ....")
