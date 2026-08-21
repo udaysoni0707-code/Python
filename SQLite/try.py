@@ -33,7 +33,7 @@ print(data)
 # update marks
 cursor.execute("""
                UPDATE try
-               SET marks = 98
+               SET marks = 0
                WHERE id = 3;
                """)
 
